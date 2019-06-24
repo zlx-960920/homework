@@ -1,0 +1,243 @@
+* {
+    padding: 0 px;
+    margin: 0 px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(250, 250, 250);
+    padding: 10px;
+}
+
+.head {
+    background: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 1200px;
+}
+
+.head>div {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.head .h1 {
+    float: left;
+}
+
+.h3,
+.h2 {
+    float: right;
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.h3>a {
+    color: blue;
+    font-size: 15px;
+}
+
+
+.head:after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+
+.bbody {
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 870px;
+    min-width: 870px;
+    position: relative;
+}
+
+.bbody>.body-a {
+    display: inline-block;
+    padding: 70px 0px;
+}
+
+.bbody>.body-b {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 46%;
+}
+
+.body-b>.div1 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.body-b>.div1 img {
+    vertical-align: middle;
+}
+
+.body-b>.div1 .sp1 {
+    float: left;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+.body-b>.div1 .sp2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.body-b>.div1 .sp2>a {
+    display: block;
+    font-size: 15px;
+    color: blue;
+}
+
+.body-b>.div1::after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+
+.body-c {
+    max-width: 85%;
+    margin: 20px auto;
+    background: white;
+    position: relative;
+    z-index: 2;
+    border: lightgray 1px solid;
+}
+
+.body-c>.div-a1 {
+    position: absolute;
+    display: inline-block;
+    top: -18px;
+    left: 45%;
+    z-index: 3;
+}
+
+.body-c>.div-a2 {
+    display: inline-block;
+    widows: 100px;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.div-a2>.div-b1 div {
+    border: lightgray 1px solid;
+}
+
+.div-a2>.div-b1 div:hover {
+    border: rgb(153, 153, 153) 1px solid;
+}
+
+.div-a2>.div-b1 img {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.div-a2>.div-b1 .d1 {
+    margin-bottom: 2px;
+}
+
+.div-a2>.div-b1 input {
+    width: 300px;
+    height: 50px;
+}
+
+.div-b2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.div-b2 div {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.div-b2>.d2 {
+    margin-left: 200px;
+}
+
+.div-b3 {
+    position: relative;
+}
+
+.div-b3 a {
+    position: absolute;
+    display: block;
+    color: white;
+    left: 45%;
+    top: 20%;
+}
+
+.div-b3 img {
+    width: 100%;
+    height: 40px;
+}
+
+.div-a3 {
+    height: 3px;
+    background: url("./03-1号店注册/img04.png") repeat-x;
+    margin-top: 10px;
+}
+
+.div-a4 {
+    margin: 10px;
+    padding-left: 25px;
+}
+
+.div-a4 div {
+    margin-bottom: 10px;
+}
+
+.div-a4>.d1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div-a4>.d3 {
+    font-size: 13px;
+    color: gray;
+}
+
+.foot {
+    min-width: 1200px;
+}
+
+.foot span {
+    display: block;
+    text-align: center;
+}

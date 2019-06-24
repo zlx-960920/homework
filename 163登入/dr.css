@@ -1,0 +1,139 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.nav-head {
+    margin-top: 10px;
+
+
+}
+
+.nav-d1 {
+    width: 1000px;
+    margin: 0 auto;
+
+
+
+}
+
+.nh-lo {
+    float: left;
+
+    padding-right: 20px;
+}
+
+.nh-lu {
+    float: left;
+
+    margin-top: 7px;
+    padding: 0 20px;
+
+    border-left: 1px dashed #000000;
+}
+
+.nh-text {
+    float: right;
+
+    margin-top: 13px
+}
+
+.nh-text>span>a {
+    color: #0000FF;
+}
+
+.nh-text>span>a:hover {
+    color: red;
+}
+
+.nav-bdy {
+
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.ny-d1 {
+
+    background: url("img/tit_bg2.jpg") repeat-x;
+
+    color: #ffffff;
+    height: 46px;
+    line-height: 46px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.nh-text>span {
+    padding-left: 6px;
+}
+
+.ny-d1>span {
+
+    position: absolute;
+    top: -1px;
+    left: 59px;
+}
+
+.ny-d2 {
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.nd2-sp1 {
+    color: red;
+}
+
+input {
+    background-color: #FBFBFB;
+}
+
+.ny-d2>div {
+    margin-bottom: 10px;
+}
+
+.ndd-d2 {
+    color: #A1A799;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.ndd-d3 {
+    padding-right: 8px;
+}
+
+.ndd-d4 {
+    margin-left: 5px;
+}
+
+.ndd-d5 {
+    margin-left: 12px;
+}
+
+.ndd-d6 {
+    margin-left: 24px;
+}
+
+.nd6-1 {
+    color: #0000FF;
+}
+
+.nd2-d6 {
+    margin-left: 60px;
+}
+
+.nd2-d7 {
+    margin-left: 60px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-boot {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-ver {
+    height: 19px;
+    background-color: #D4D0C7;
+}
